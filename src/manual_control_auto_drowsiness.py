@@ -840,7 +840,7 @@ class CameraManager(object):
 
 
 class DrowsinessModule:
-    def __init__(self, uri="ws://localhost:8000/data/facialmetrics"):
+    def __init__(self, uri="ws://10.0.0.108:8000/data/facialmetrics"):
         self.uri = uri
         self._is_drowsy = False
         self._lock = threading.Lock()
